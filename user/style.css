@@ -1,0 +1,266 @@
+
+/*------------------------------------------
+	General
+------------------------------------------*/
+
+body {
+	font-family: 'Lato';
+	background-color: #F5F6FA;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+	i {
+		padding-right: 3px;
+	}
+
+	.card {
+		border-color: #eaedf6;
+	}
+
+	.navbar {
+		background-color: #ffffff !important;
+		border-bottom: 1px solid #eaedf6;
+	}
+
+		.navbar .navbar-brand {
+			font-size: 25px;
+			font-weight: 600;
+			padding-right: 10px;
+		}
+
+		.navbar .nav-item {
+			padding-left: 8px;
+		}
+
+.btn-primary {
+	background-color: #5398e6 !important;
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-danger {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-success {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-secondary {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+/*------------------------------------------
+	Search
+------------------------------------------*/
+
+/* search input */
+
+.my-search-input {
+	margin-top: 20px;
+    font-size: 15px;
+}
+
+	.my-search-input .custom-select, .my-search-input .input-group {
+		margin-top: 10px;
+	}
+
+	.my-search-input .custom-select {
+		border-color: #eaedf6;
+        height: 52px;
+        padding-left: 20px;
+	}
+
+		.my-search-input .input-group input {
+			border-color: #eaedf6;
+            padding: 25px;
+		}
+
+		.my-search-input i {
+			font-size: 15px;
+		}
+
+/* search result */
+
+.my-search-result {
+	margin-top: 10px;
+}
+
+	.my-search-result .card {
+		margin-top: 15px;
+	}
+
+		.my-search-result .card a {
+			text-decoration: none;
+			color: #000000;
+		}
+		.my-search-result .card a:hover {
+			font-weight: 600;
+		}
+
+        .my-search-result .card h5 {
+			font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+		}
+
+        .my-search-result .card h6 {
+            font-size: 15px;
+		}
+
+		.my-search-result .image-variete {
+			position: relative;
+            width: 100%;
+            padding-bottom: 70%;
+			overflow: hidden;
+		}
+
+		.my-search-result .image-variete a {
+			position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+		}
+}
+
+/*------------------------------------------
+	Preview
+------------------------------------------*/
+
+.my-header {
+	margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+    .my-header h4 {
+        font-size: 22px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+
+    .my-header p {
+        font-size: 15px;
+    }
+
+.my-preview {
+	margin-top: 5px;
+}
+
+	.my-preview .my-table, .my-preview .card {
+		margin-top: 10px !important;
+	}
+
+		.my-preview .my-table thead, .my-preview .my-table tbody {
+			margin-top: 10px !important;
+		}
+
+			.my-preview .my-table thead tr th, .my-preview .my-table tbody tr td {
+				border-color: #eceff7 !important;
+			}
+
+			.my-preview .my-table .my-organe-name {
+				text-align: center;
+			}
+
+                .my-preview .my-table table {
+                    text-align: center;
+                }
+
+/*------------------------------------------
+	Profile
+------------------------------------------*/
+
+.my-profile-header {
+	margin-top: 35px;
+}
+
+	.my-profile-header img {
+		border-radius: 40px;
+		border: 1px solid #eceff7;
+	}
+
+	.my-profile-header h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        margin-top: 10px;
+	}
+
+    .my-profile-header h5 {
+        font-size: 15px;
+	}
+
+.my-profile-update {
+    margin-top: 15px;
+}
+
+    .my-profile-update form input {
+        padding: 25px;
+        border-color: #eaedf6;
+	}
+
+    .my-profile-update form button {
+        height: 50px;
+	}
+
+	.my-profile-update form label {
+        padding-left: 10px;
+	}
+
+/*------------------------------------------
+	Compare
+------------------------------------------*/
+
+.my-compare select, .my-compare button {
+	font-size: 15px;
+}
+
+.my-compare select {
+	height: 50px;
+    border-color: #eaedf6;
+    padding-left: 20px;
+}
+
+.my-compare button {
+	height: 50px;
+    border: 0px solid #000000 !important;
+}
+
+.my-compare-espece {
+    margin-top: 10px;
+}
+
+.my-compare-variete {
+    margin-top: -15px;
+}
+
+    .my-compare-variete select, .my-compare-variete button {
+        margin-top: 10px;
+    }
+
+.my-compare-result {
+    margin-top: -10px;
+}
+
+    .my-compare-result .table thead, .my-compare-result .table tbody {
+        background-color: #ffffff;
+        font-size: 15px;
+    }
+
+        .my-compare-result .table thead tr:first-child th {
+            text-align: center;
+            font-size: 16px;
+        }

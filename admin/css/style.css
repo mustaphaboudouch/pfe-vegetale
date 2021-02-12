@@ -1,0 +1,372 @@
+/*----------------------------------------
+	General
+----------------------------------------*/
+
+body {
+	font-family: 'Lato' !important;
+	color: #3e4145 !important;
+	font-weight: 400 !important;
+	background-color: #F5F6FA !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+hr {
+	background-color: #eaedf6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #111111;
+	font-weight: 600 !important;
+}
+
+i {
+	padding-right: 3px;
+}
+
+.btn-primary {
+	background-color: #5398e6 !important;
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-danger {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-success {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn-secondary {
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-radius: 5px !important;
+	font-size: 15px !important;
+	padding: 8px 18px !important;
+}
+
+.btn i {
+	font-size: 14px;
+}
+
+/*----------------------------------------
+	Sidebar
+----------------------------------------*/
+
+#sidebar-wrapper {
+	z-index: 1;
+	position: absolute;
+	width: 250px;
+	height: 100%;
+	overflow-y: hidden;
+	background-color: #ffffff;
+	border-right: 1px solid #eaedf6;
+    position: fixed;
+}
+
+/* Logo */
+
+.my-logo {
+	padding: 30px 0px 0px 25px;
+}
+
+.my-logo h3 {
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.my-logo small {
+	font-size: 14px;
+	margin-left: 35px;
+}
+
+/* Menu */
+
+.my-menu {
+	padding: 0;
+	list-style: none;
+}
+
+.my-menu li {
+	text-indent: 10px;
+	line-height: 50px;
+    white-space: nowrap;
+}
+.my-menu li:first-child {
+	margin-top: 20px;
+}
+
+.my-menu li a {
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	color: gray;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.my-menu li a:hover {
+	color: #3e4145;
+}
+
+.my-menu li:hover {
+	cursor: pointer;
+}
+
+.my-menu li a i {
+	width: 45px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*----------------------------------------
+	Content
+----------------------------------------*/
+
+#content-wrapper {
+	width: 100%;
+	position: absolute;
+	background-color: #F5F6FA;
+}
+
+/* Top Menu */
+
+.my-top-menu {
+	padding: 10px 0px 10px 0px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #eceff7;
+	font-size: 15px;
+}
+
+.my-top-menu .nav .navbar-text{
+	font-size: 15px;
+}
+
+.my-top-menu .nav .nav-item{
+	margin-left: 20px;
+}
+
+.my-top-menu .nav .nav-item a {
+	color: #3e4145;
+}
+
+.my-top-menu .my-toggle-btn a {
+	color: #3e4145;
+}
+
+/* Main Content */
+
+.my-content {
+	padding-bottom: 30px;
+}
+
+/* Media Query */
+
+.my-top-menu .navbar-text {
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.my-top-menu .navbar-text {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.my-top-menu .navbar-text {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.my-top-menu .navbar-text {
+		display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+	.my-top-menu .navbar-text {
+		display: block;
+	}
+}
+
+/*----------------------------------------
+	Dashboard
+----------------------------------------*/
+
+/* Statistics */
+
+.my-statistics .card {
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #eceff7;
+}
+
+.my-statistics .card .card-title {
+	margin-bottom: 2px;
+	font-size: 25px;
+}
+
+.my-statistics .card h2 {
+	font-size: 25px !important;
+}
+
+.my-statistics .card h1 {
+	font-size: 30px !important;
+}
+
+/* Chart */
+
+.my-chart {
+	margin-top: 20px;
+}
+
+.my-chart .card {
+	border-radius: 5px;
+	border: 1px solid #eceff7;
+}
+
+.my-chart .card .card-title {
+	margin-bottom: 5px;
+}
+
+.my-chart .my-chart-canvas {
+    margin-top: 30px !important;
+}
+
+/*----------------------------------------
+	Correctors, Authors, Users
+----------------------------------------*/
+
+/* Header */
+
+.my-header {
+	margin-top: 30px;
+}
+
+.my-header h4 {
+	margin-bottom: 0px;
+}
+
+/* Table */
+
+.my-table {
+	margin-top: 5px;
+}
+
+.my-table thead, .my-table tbody {
+	background-color: #ffffff;
+	font-size: 16px;
+	color: #3e4145;
+}
+
+.my-table thead tr th, .my-table tbody tr td {
+	border-color: #eceff7 !important;
+}
+
+.my-table-actions {
+    display: flex;
+    border: none !important;
+}
+
+.my-table-actions button {
+    margin-left: 5px;
+}
+
+/*----------------------------------------
+	Profile
+----------------------------------------*/
+
+/* Profile */
+
+.my-profile {
+	margin-top: 30px;
+}
+
+.my-profile img {
+	border-radius: 40px;
+	border: 1px solid #eceff7;
+}
+
+.my-profile h5 {
+	margin-top: 10px;
+	margin-bottom: 0px !important;
+}
+
+/* Update Profile */
+
+.my-profile-update {
+    margin-top: -10px;
+}
+
+.my-profile-update label {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.my-profile-update input {
+	border-radius: 5px;
+	border: 1px solid #eceff7;
+	height: 50px;
+	padding-left: 20px;
+}
+
+.my-profile-update button {
+	border-radius: 5px;
+	height: 47px;
+	margin-top: 20px;
+}
+
+/*----------------------------------------
+	Preview
+----------------------------------------*/
+
+.my-profile-infos {
+	margin-top: 15px;
+}
+
+.my-profile-infos ul li {
+	color: gray;
+	border-color: #eaedf6;
+}
+
+.my-profile-infos ul li:first-child {
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+.my-profile-infos ul li:last-child {
+	border-radius: 0px 0px 5px 5px !important;
+}
+
+.my-profile-infos ul li:first-child {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.my-profile-infos ul li span {
+	color: #3e4145;
+	padding-right: 5px;
+}
+
+/*----------------------------------------
+	Modal
+----------------------------------------*/
+
+.modal {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.modal .modal-content {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+}

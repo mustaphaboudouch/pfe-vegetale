@@ -1,0 +1,145 @@
+/*----------------------------------------
+    General
+----------------------------------------*/
+
+body {
+    font-family: 'Lato' !important;
+    color: #3e4145 !important;
+    font-weight: 400 !important;
+    background-color: #F5F6FA !important;
+    font-size: 17px !important;
+}
+
+h2 {
+    color: #111111;
+    font-weight: 600 !important;
+}
+
+.btn-primary {
+    background-color: #5398e6 !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    padding: 11px 0px 11px 0px !important;
+    margin-top: 5px;
+}
+
+.btn-success {
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    padding: 11px 0px 11px 0px !important;
+}
+
+/*----------------------------------------
+    Navbar
+----------------------------------------*/
+
+.navigation {
+    padding: 20px 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #eaedf6;
+}
+
+.navigation .container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .logo {
+    flex: 1;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navigation .link a {
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navigation .link a:hover {
+    color: #000000;
+}
+
+.navigation .link a i {
+    padding-right: 5px;
+}
+
+/*----------------------------------------
+    Login
+----------------------------------------*/
+
+.my-content {
+    padding: 40px 0px;
+    border-radius: 10px;
+    border: 1px solid #eaedf6;
+    margin: 0px 20px;
+    background-color: #FFFFFF;
+}
+
+form input {
+    background-color: #F5F6FA !important;
+    border: 1px solid #eaedf6 !important;
+    border-radius: 5px !important;
+    padding: 25px !important;
+    font-size: 16px !important;
+    margin-top: 10px;
+}
+
+form input:first-child {
+    margin-top: 0px;
+}
+
+.my-login form button {
+    margin-top: 10px;
+    font-size: 16px !important;
+}
+
+.my-login form button i {
+    padding-right: 5px;
+}
+
+/*----------------------------------------
+    Register
+----------------------------------------*/
+
+.my-register select {
+    height: 55px !important;
+    background-color: #F5F6FA !important;
+    border: 1px solid #eaedf6 !important;
+    font-size: 16px !important;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.my-register input {
+    font-size: 15px !important;
+}
+
+.my-register form button {
+    margin-top: 10px;
+    font-size: 16px !important;
+}
+
+.my-register form button i {
+    padding-right: 5px;
+}
+
+.my-register .custom-file {
+    margin-bottom: 23px;
+}
+
+.my-register .custom-file-label {
+    font-size: 16px;
+    height: 53px;
+    padding-top: 13px;
+    border-color: #eaedf6;
+}
+
+.my-register .custom-file-label::after {
+  height: auto;
+  padding: 13px 25px 13px 25px;
+  background-color: #f5f6fa;
+  border-color: #eaedf6;
+}
